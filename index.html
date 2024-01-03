@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order food online form india no.1 food delivery app</title>
+    <link rel="icon" href="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_192,h_192/portal/c/logo_2022.png">
+    <style>
+        /*Made by Aditya*/
+        @font-face {
+            font-family: 'ProximaNova';
+            src: url(Proxima\ Nova\ Font.otf);
+        }
+
+        body {
+            font-family: 'ProximaNova';
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            display: flex;
+        }
+
+        .img2 {
+            width: 92.5%;
+            position: relative;
+            top: -50px;
+            left: 60px;
+        }
+
+        .logo img {
+            width: 50%;
+            margin-top: 50px;
+        }
+
+        .container1 {
+            margin-left: 180px;
+        }
+
+        nav {
+            display: flex;
+        }
+
+        .signin_login {
+            margin-top: 35px;
+            display: flex;
+            white-space: nowrap;
+            margin-left: 35px;
+        }
+
+        .login {
+            margin-right: 16px;
+            line-height: 40px;
+        }
+
+        .login:hover {
+            color: orange;
+        }
+
+        .signup {
+            width: 100px;
+            height: 40px;
+            background-color: black;
+            color: white;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        h1 {
+            font-size: 40px;
+            font-weight: 600;
+            white-space: nowrap;
+            letter-spacing: -.45px;
+            line-height: 40px;
+            margin-top: 70px;
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 24px;
+            font-weight: 300;
+            width: 600px;
+            white-space: nowrap;
+            letter-spacing: -.3px;
+            color: #686b78;
+            margin-top: 0;
+            margin-bottom: 0;
+            line-height: 40px;
+        }
+
+        input {
+            margin-top: 30px;
+            width: 70%;
+            padding: 20px;
+            caret-color: #fc8019;
+            outline: none;
+        }
+
+        input[type=text]:focus {
+            border: 2px solid #fc8019;
+        }
+
+        input::placeholder {
+            font: 17px arial;
+        }
+
+        button {
+            margin-top: 30px;
+            width: 10%;
+            height: 59.5px;
+            background-color: #fc8019;
+            color: white;
+            position: absolute;
+            left: 41vw;
+            border: 2px solid #fc8019;
+            cursor: pointer;
+        }
+
+        .firstinfo {
+            margin-top: 30px;
+            font-weight: 300;
+            font-size: 15px;
+            text-transform: uppercase;
+            color: #a9abb2;
+        }
+
+        ul {
+            padding-left: 0px;
+        }
+
+        .someinfo ul li {
+            display: inline-block;
+            list-style: none;
+            margin-right: 8px;
+            font-weight: 600;
+            font-size: 16px;
+            opacity: 0.5;
+            cursor: pointer;
+
+        }
+
+        .someinfo ul li:nth-child(2) {
+            color: #93959f;
+        }
+
+        .someinfo ul li:nth-child(4) {
+            color: #93959f;
+        }
+
+        .someinfo ul li:nth-child(6) {
+            color: #93959f;
+        }
+
+        .someinfo ul li:nth-child(8) {
+            color: #93959f;
+        }
+
+        .allitmes {
+            background-color: #2b1e16;
+            width: 97.5%;
+            height: 400px;
+            padding: 0 20px;
+            position: absolute;
+            top: 75vh;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .items img {
+            width: 40%;
+        }
+
+        .itmescontiner {
+            position: relative;
+            color: white;
+            text-align: center;
+
+        }
+
+        .fitm {
+            margin-top: 35px;
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .fitm2 {
+            
+            font-size: 15px;
+            color: #e0cbc1;
+        }
+        .maincontainer{
+            color: black;
+            width: 1510px;
+            height: 800px;
+        }
+
+        .downloadnow {
+            padding: 0px 180px 0px 180px;
+            position: relative;
+        }
+
+        .Heading {
+            font-size: 40px;
+            font-weight: 600;
+            width: 300px;
+            position: absolute;
+            top: 50vh;
+        }
+
+        .subhead {
+            position: absolute;
+            top: 66vh;
+            font-size: 20px;
+            font-weight: 300;
+            color: #7e808c;
+        }
+
+        .iconss {
+            position: absolute;
+            display: inline-block;
+            top: 80vh;
+        }
+
+        .iconss img {
+            width: 25%;
+            cursor: pointer;
+        }
+        .addicons img{
+            width: 25%;
+        }
+        .addicons .iconsimg1{
+            position: absolute;
+            left: 45%;
+            top: 926px;
+        }
+        .addicons .iconsimg2{
+            position: absolute;
+            left: 67.5%;
+            top: 965px;
+        }
+        .Company ul li{
+            display: block;
+            color:white;
+            font-weight: 300;
+            line-height: 2.2;
+            list-style: none;
+        }
+        .Contact ul li{
+            color: white;
+            font-weight: 300;
+            line-height: 2.2;
+            list-style: none;
+        }
+        .Legal ul li{
+            display: block;
+            color: white;
+            font-weight: 300;
+            line-height: 2.2;
+            list-style: none;
+        }
+        .Company{
+            padding-top: 50px;
+            position: absolute;
+            top: 6%;
+        }
+        .Contact {
+            padding-top: 50px;
+            position: absolute;
+            left: 30%;
+            top: 6%;
+        }
+        .Legal{
+            padding-top: 50px;
+            position: absolute;
+            left: 50%;
+            top: 6%;
+        }
+        .Company ul li:hover{
+            font-weight: 400;
+        }
+        .Legal ul li:nth-child(7){
+            line-height: 1.2;
+            margin-bottom: 10px;
+        }
+        .Legal ul li:nth-child(8){
+            line-height: 1.2;
+        }
+        .fname{
+            color: gray;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+        }
+        footer {
+            height: 750px;
+            background: black;
+        }
+        .footer{
+            padding: 80px 80px 0px 180px;
+            position: relative;
+        }
+        .iconsf img{
+            width: 13%;
+            display: block;
+            border: 2px solid gray;
+            border-radius: 10px;
+            position: absolute;
+            left: 75%;
+            overflow: hidden;
+            transition: all ease 1s;
+        }
+        .iconsf img:hover{
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+        .hr1{
+            position: absolute;
+            top: 277vh;
+            width: 80%;
+            margin-left: 180px;
+        }
+        .hr2{
+            position: absolute;
+            top: 297vh;
+            width: 80%;
+            margin-left: 180px;
+        }
+        .lfooter{
+            height: 200px;
+            color: white;
+            margin-left: 180px;
+        }
+        .lfooter1{
+            font-size: 18px;
+            font-weight: 600;
+            position: absolute;
+            top: 2000px;
+            color: #686b78;
+            text-transform: uppercase;
+            line-height: 10px;
+        }
+        .lfooter2{
+            position: absolute;
+            top: 2030px;
+            color: #ffffff;
+        }
+        .lfooter3{
+            position: absolute;
+            top: 2030px;
+            color: #ffffff;
+            left: 73.5vw;
+        }
+        .footericons{
+            margin-left: 180px;
+            display: inline-flex;
+            position: absolute;
+            top: 2110px;
+
+        }
+        .lastfooter ul li{
+            display: inline-block;
+        }
+        .footer_center{
+            color: white;
+            padding-top: 40px;
+            margin-right: 320px;
+            margin-left: 250px;
+            font-size: 25px;
+        }
+        .lastfooter img{
+            width: 50%;
+            padding-top: 20px;
+        }
+        .swigylgogo_footer img{
+            width: 60%;
+            padding-top: 25px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="content">
+            <div class="container1">
+                <nav>
+                    <div class="logo">
+                        <img src="swiggy_logo.jpg" alt="">
+                        <img src="" alt="">
+                    </div>
+                    <div class="signin_login">
+                        <h3 class="login">login</h3>
+                        <h3 class="signup">Sign up</h3>
+                    </div>
+                </nav>
+                <div class="allitems">
+                    <h1>Late night at office?</h1>
+                    <h2>Order food from favourite restaurants near you.</h2>
+                </div>
+                <div class="location">
+                    <input type="text" name="" id="" placeholder="Enter your delivery location"><button>FIND
+                        FOOD</button>
+                    <div class="someinfo">
+                        <p class="firstinfo">Popular cities in India</p>
+                        <ul>
+                            <li>Ahmedabad</li>
+                            <li>Bangalore</li>
+                            <li>Chennai</li>
+                            <li>Delhi</li>
+                            <li>Gurgaon</li>
+                            <li>Hyderabad</li>
+                            <li>Kolkata</li>
+                            <li>Mumbai</li>
+                            <li>Pune</li>
+                            <li>& more.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container2">
+                <img class="img2" src="swiggy_food_ph.jpeg" alt="">
+            </div>
+            <div class="allitmes">
+                <div class="items">
+                    <div class="itmescontiner">
+                        <img src="swiggy_orderlist1.jpeg" alt="">
+                        <div class="fitm">No Minimum Order</div>
+                        <div class="fitm2" style="line-height: 1;">Order in for yourself or for the group,</div>
+                        <div class="fitm2"> with no restrictions on order value</div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="itmescontiner">
+                        <img src="swiggy_order_list.jpg" alt="">
+                        <div class="fitm">Live Order Tracking</div>
+                        <div class="fitm2">Know where your order is at all times, </div>
+                        <div class="fitm2">from the restaurant to your doorstep</div>
+                    </div>
+                </div>
+                <div class="items">
+                    <div class="itmescontiner">
+                        <img style="margin-top: 28px;" src="swiggy_delivery_boy.jpeg" alt="">
+                        <div class="fitm">Lightning-Fast Delivery</div>
+                        <div class="fitm2">Experience Swiggy's superfast delivery </div>
+                        <div class="fitm2">for food delivered fresh & on time</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="maincontainer">
+            <div class="downloadnow">
+                <div class="Heading">Restaurants in your pocket</div>
+                <div class="subhead">Order from your favorite restaurants & track</div>
+                <div class="subhead" style="margin-top: 25px;"> on the go, with the all-new Swiggy app</div>
+                <div class="iconss">
+                    <img src="swiggy_play-store.jpeg" alt="">
+                    <img src="swiggy_app-store.jpeg" alt="">
+                </div>
+            </div>
+            <div class="addicons">
+                <img class="iconsimg1" src="swiggy_order_menu.jpeg" alt="">
+                <img class="iconsimg2" src="swiggy_order_menu2.jpeg" alt="">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="Company">
+                <div class="fname">Company</div>
+                <ul>
+                    <li>About us</li>
+                    <li>Team</li>
+                    <li>Careers</li>
+                    <li>Swiggy Blog</li>
+                    <li>Bug Bounty</li>
+                    <li>Swiggy One</li>
+                    <li>Swiggy Corporate</li>
+                    <li>Swiggy Instamart</li>
+                    <li>Swiggy Genie</li>
+                    <li>Swiggy HDFC Bank Credit Card</li>
+                </ul>
+            </div>
+            <div class="Contact">
+                <div class="fname">Contact</div>
+                <ul>
+                    <li>Help & Support</li>
+                    <li>Partner with us</li>
+                    <li>Ride with us</li>
+                </ul>
+            </div>
+            <div class="Legal">
+                <div class="fname">Legal</div>
+                <ul>
+                    <li>Terms & Conditions</li>
+                    <li>Refund & Cancellation</li>
+                    <li>Privacy Policy</li>
+                    <li>Cookie Policy</li>
+                    <li>Offer Terms</li>
+                    <li>Phishing & Fraud</li>
+                    <li>Corporate – Swiggy Money Codes Terms and<br> Conditions</li>
+                    <li>Corporate - Swiggy Discount Voucher Terms and<br> Conditions</li>
+                </ul>
+            </div>
+            <div class="iconsf">
+                <img src="swiggy_play-store.jpeg" alt="">
+                <img style="margin-top: 100px;" src="swiggy_app-store.jpeg" alt="">
+            </div>
+        </div>
+        <hr class="hr1">
+        <div class="lfooter">
+            <div class="lfooter1">Explore Every Restaurants Near Me</div>
+            <div class="lfooter2">Explore Restaurants Near Me</div>
+            <div class="lfooter3">Explore Top Rated Restaurants Near Me</div>
+        </div>
+        <hr class="hr2"> 
+        <div class="footericons">
+            <div class="swigylgogo_footer"><img src="swiggy_logo_footer.jpeg" alt=""></div>
+            <div class="footer_center">© 2023 Swiggy</div>
+            <div class="lastfooter">
+                <ul>
+                    <li><img src="facebook_logo.jpeg" alt=""></li>
+                    <li><img src="icon-pinterest_kmz2wd.png" alt=""></li>
+                    <li><img src="instagram_logo.jpeg" alt=""></li>
+                    <li><img src="twitter_logo.jpeg" alt=""></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
